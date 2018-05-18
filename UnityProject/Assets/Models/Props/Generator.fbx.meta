@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 71ed3e8dc6602a143976ca2d45476ca2
+timeCreated: 1509119510
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Electric_generator_V2_mb:Box02
+    100002: Electric_generator_V2_mb:Box03
+    100004: Electric_generator_V2_mb:Box04
+    100006: Electric_generator_V2_mb:Box05
+    100008: Electric_generator_V2_mb:Cylinder01
+    100010: Electric_generator_V2_mb:Cylinder02
+    100012: Electric_generator_V2_mb:Cylinder03
+    100014: Electric_generator_V2_mb:Cylinder04
+    100016: Electric_generator_V2_mb:Cylinder05
+    100018: Electric_generator_V2_mb:Cylinder07
+    100020: Electric_generator_V2_mb:Cylinder17
+    100022: Electric_generator_V2_mb:Cylinder18
+    100024: Electric_generator_V2_mb:Electric_generator_V2
+    100026: Electric_generator_V2_mb:Electric_generetor_bolts
+    100028: Electric_generator_V2_mb:Electric_generetor_glass1
+    100030: Electric_generator_V2_mb:Electric_Gererator_body1
+    100032: Electric_generator_V2_mb:Electric_Gererator_lattice1
+    100034: Electric_generator_V2_mb:Electric_Gererator_Panel2
+    100036: Electric_generator_V2_mb:Group01
+    100038: Electric_generator_V2_mb:Group02
+    100040: Electric_generator_V2_mb:Group03
+    100042: Electric_generator_V2_mb:Group04
+    100044: Electric_generator_V2_mb:Object01
+    100046: Electric_generator_V2_mb:Object01 1
+    100048: Electric_generator_V2_mb:Object02
+    100050: Electric_generator_V2_mb:Object03
+    100052: Electric_generator_V2_mb:Rectangle01
+    100054: Electric_generator_V2_mb:Rectangle02
+    100056: Electric_generator_V2_mb:transform1
+    100058: Electric_generator_V2_mb:transform10
+    100060: Electric_generator_V2_mb:transform11
+    100062: Electric_generator_V2_mb:transform12
+    100064: Electric_generator_V2_mb:transform13
+    100066: Electric_generator_V2_mb:transform14
+    100068: Electric_generator_V2_mb:transform15
+    100070: Electric_generator_V2_mb:transform16
+    100072: Electric_generator_V2_mb:transform17
+    100074: Electric_generator_V2_mb:transform18
+    100076: Electric_generator_V2_mb:transform19
+    100078: Electric_generator_V2_mb:transform2
+    100080: Electric_generator_V2_mb:transform20
+    100082: Electric_generator_V2_mb:transform21
+    100084: Electric_generator_V2_mb:transform22
+    100086: Electric_generator_V2_mb:transform3
+    100088: Electric_generator_V2_mb:transform4
+    100090: Electric_generator_V2_mb:transform5
+    100092: Electric_generator_V2_mb:transform6
+    100094: Electric_generator_V2_mb:transform7
+    100096: Electric_generator_V2_mb:transform8
+    100098: Electric_generator_V2_mb:transform9
+    100100: //RootNode
+    100102: group1
+    400000: Electric_generator_V2_mb:Box02
+    400002: Electric_generator_V2_mb:Box03
+    400004: Electric_generator_V2_mb:Box04
+    400006: Electric_generator_V2_mb:Box05
+    400008: Electric_generator_V2_mb:Cylinder01
+    400010: Electric_generator_V2_mb:Cylinder02
+    400012: Electric_generator_V2_mb:Cylinder03
+    400014: Electric_generator_V2_mb:Cylinder04
+    400016: Electric_generator_V2_mb:Cylinder05
+    400018: Electric_generator_V2_mb:Cylinder07
+    400020: Electric_generator_V2_mb:Cylinder17
+    400022: Electric_generator_V2_mb:Cylinder18
+    400024: Electric_generator_V2_mb:Electric_generator_V2
+    400026: Electric_generator_V2_mb:Electric_generetor_bolts
+    400028: Electric_generator_V2_mb:Electric_generetor_glass1
+    400030: Electric_generator_V2_mb:Electric_Gererator_body1
+    400032: Electric_generator_V2_mb:Electric_Gererator_lattice1
+    400034: Electric_generator_V2_mb:Electric_Gererator_Panel2
+    400036: Electric_generator_V2_mb:Group01
+    400038: Electric_generator_V2_mb:Group02
+    400040: Electric_generator_V2_mb:Group03
+    400042: Electric_generator_V2_mb:Group04
+    400044: Electric_generator_V2_mb:Object01
+    400046: Electric_generator_V2_mb:Object01 1
+    400048: Electric_generator_V2_mb:Object02
+    400050: Electric_generator_V2_mb:Object03
+    400052: Electric_generator_V2_mb:Rectangle01
+    400054: Electric_generator_V2_mb:Rectangle02
+    400056: Electric_generator_V2_mb:transform1
+    400058: Electric_generator_V2_mb:transform10
+    400060: Electric_generator_V2_mb:transform11
+    400062: Electric_generator_V2_mb:transform12
+    400064: Electric_generator_V2_mb:transform13
+    400066: Electric_generator_V2_mb:transform14
+    400068: Electric_generator_V2_mb:transform15
+    400070: Electric_generator_V2_mb:transform16
+    400072: Electric_generator_V2_mb:transform17
+    400074: Electric_generator_V2_mb:transform18
+    400076: Electric_generator_V2_mb:transform19
+    400078: Electric_generator_V2_mb:transform2
+    400080: Electric_generator_V2_mb:transform20
+    400082: Electric_generator_V2_mb:transform21
+    400084: Electric_generator_V2_mb:transform22
+    400086: Electric_generator_V2_mb:transform3
+    400088: Electric_generator_V2_mb:transform4
+    400090: Electric_generator_V2_mb:transform5
+    400092: Electric_generator_V2_mb:transform6
+    400094: Electric_generator_V2_mb:transform7
+    400096: Electric_generator_V2_mb:transform8
+    400098: Electric_generator_V2_mb:transform9
+    400100: //RootNode
+    400102: group1
+    2300000: Electric_generator_V2_mb:Object01
+    3300000: Electric_generator_V2_mb:Object01
+    4300000: Electric_generator_V2_mb:Object01
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_generator_V2_mb_Electric_Gererator_Panel1
+    second: {fileID: 2100000, guid: 7266bf5f5b73d3a4bba232abe0707928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_generator_V2_mb_Electric_Gererator_body
+    second: {fileID: 2100000, guid: fd931614b175ca746ad90671610b3ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_generator_V2_mb_Electric_Gererator_lattice
+    second: {fileID: 2100000, guid: df852ebb96f01ea48bf662c8fdc48e36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_generator_V2_mb_Electric_generator_Meters
+    second: {fileID: 2100000, guid: 1b1a7cbfd40507d48987535b0542f666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_generator_V2_mb_Electric_generetor_glass
+    second: {fileID: 2100000, guid: 10c106e0334378e419c8c62509ccd900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electric_generator_V2_mb_Gray
+    second: {fileID: 2100000, guid: d7d68c504831b43489e38f8c04b674ed, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

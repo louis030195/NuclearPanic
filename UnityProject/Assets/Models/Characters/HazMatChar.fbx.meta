@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: d650439b849df5a4896c15c456d66fac
+timeCreated: 1509144675
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Goggles
+    100002: Hazmat_Worker
+    100004: //RootNode
+    100006: HazMatHead
+    100008: HazMatHips
+    100010: HazMatLeftArm
+    100012: HazMatLeftFoot
+    100014: HazMatLeftForeArm
+    100016: HazMatLeftHand
+    100018: HazMatLeftHandMiddle4
+    100020: HazMatLeftLeg
+    100022: HazMatLeftShoulder
+    100024: HazMatLeftToe1
+    100026: HazMatLeftToe2
+    100028: HazMatLeftUpLeg
+    100030: HazMatNeck
+    100032: HazMatRightArm
+    100034: HazMatRightFoot
+    100036: HazMatRightForeArm
+    100038: HazMatRightHand
+    100040: HazMatRightHandMiddle4
+    100042: HazMatRightLeg
+    100044: HazMatRightShoulder
+    100046: HazMatRightToe1
+    100048: HazMatRightToe2
+    100050: HazMatRightUpLeg
+    100052: HazMatSkeleton
+    100054: HazMatSpine
+    100056: HazMatSpine1
+    100058: HazMatSpine2
+    400000: Goggles
+    400002: Hazmat_Worker
+    400004: //RootNode
+    400006: HazMatHead
+    400008: HazMatHips
+    400010: HazMatLeftArm
+    400012: HazMatLeftFoot
+    400014: HazMatLeftForeArm
+    400016: HazMatLeftHand
+    400018: HazMatLeftHandMiddle4
+    400020: HazMatLeftLeg
+    400022: HazMatLeftShoulder
+    400024: HazMatLeftToe1
+    400026: HazMatLeftToe2
+    400028: HazMatLeftUpLeg
+    400030: HazMatNeck
+    400032: HazMatRightArm
+    400034: HazMatRightFoot
+    400036: HazMatRightForeArm
+    400038: HazMatRightHand
+    400040: HazMatRightHandMiddle4
+    400042: HazMatRightLeg
+    400044: HazMatRightShoulder
+    400046: HazMatRightToe1
+    400048: HazMatRightToe2
+    400050: HazMatRightUpLeg
+    400052: HazMatSkeleton
+    400054: HazMatSpine
+    400056: HazMatSpine1
+    400058: HazMatSpine2
+    2300000: Goggles
+    3300000: Goggles
+    4300000: Hazmat_Worker
+    4300002: Goggles
+    9500000: //RootNode
+    13700000: Hazmat_Worker
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HazGoggs
+    second: {fileID: 2100000, guid: 1e8680483ddbe5e4188889fd6f193cc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_body
+    second: {fileID: 2100000, guid: 80cb087691307504ebc91286ee476b66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_feet
+    second: {fileID: 2100000, guid: 8db963e0e7e9f0448b1c1a9b6e65bf2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_hand
+    second: {fileID: 2100000, guid: 7b5064face8286742a59a374a5bab6ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_hood
+    second: {fileID: 2100000, guid: 80cb087691307504ebc91286ee476b66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Mask
+    second: {fileID: 2100000, guid: 98f12d4c327faae46ad76fc9fea6deda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Vent
+    second: {fileID: 2100000, guid: b14f3c426b7ff5e4d8c536a4af0da978, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: HazMatHips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatLeftToe1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatRightToe1
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goggles
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HazMatNeck
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: HazMatChar(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hazmat_Worker
+      parentName: HazMatChar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HazMatSkeleton
+      parentName: HazMatChar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HazMatHips
+      parentName: HazMatSkeleton
+      position: {x: 0.00000042162256, y: 0.7787106, z: -0.033025585}
+      rotation: {x: -0.49999934, y: 0.49999934, z: -0.50000066, w: 0.50000066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HazMatSpine
+      parentName: HazMatHips
+      position: {x: -0.044983033, y: 0.00011812973, z: -0.000000026061407}
+      rotation: {x: -0.0000019967556, y: 0.00000062584877, z: 0.043222725, w: 0.9990655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HazMatLeftUpLeg
+      parentName: HazMatSpine
+      position: {x: 0.044804916, y: -0.00400244, z: -0.07436281}
+      rotation: {x: -0.009904143, y: -0.9999165, z: 0.0029718927, w: -0.0077556777}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000006}
+    - name: HazMatLeftLeg
+      parentName: HazMatLeftUpLeg
+      position: {x: -0.3529785, y: -0.047479518, z: 0.03461981}
+      rotation: {x: 0.000000097483266, y: -9.3132246e-10, z: 0.16876769, w: 0.9856559}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: HazMatLeftFoot
+      parentName: HazMatLeftLeg
+      position: {x: -0.2827789, y: 0.1718791, z: 0.031038838}
+      rotation: {x: 0.08430481, y: -0.035964955, z: 0.13311161, w: -0.9868539}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: HazMatLeftToe1
+      parentName: HazMatLeftFoot
+      position: {x: -0.085517354, y: -0.11005712, z: -0.0000006698085}
+      rotation: {x: -0.000000011175869, y: 0.00000028684732, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000004}
+    - name: HazMatLeftToe2
+      parentName: HazMatLeftToe1
+      position: {x: 0.08174267, y: -0.000000009601407, z: -0.00000029316797}
+      rotation: {x: 1, y: 0.00000017881378, z: 0.000000007902474, w: -0.00000058742154}
+      scale: {x: 1.0000006, y: 1.0000017, z: 1.0000006}
+    - name: HazMatRightUpLeg
+      parentName: HazMatSpine
+      position: {x: 0.044804532, y: -0.004002823, z: 0.07436302}
+      rotation: {x: -0.009904197, y: -0.9999165, z: -0.0029746955, w: 0.007757447}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000007}
+    - name: HazMatRightLeg
+      parentName: HazMatRightUpLeg
+      position: {x: -0.3529783, y: -0.04747951, z: -0.034621846}
+      rotation: {x: -0.000000056708807, y: -0.00000013038515, z: -0.16876672, w: -0.985656}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+    - name: HazMatRightFoot
+      parentName: HazMatRightLeg
+      position: {x: -0.282779, y: 0.17187855, z: -0.031040668}
+      rotation: {x: -0.08430436, y: 0.035964932, z: 0.13311054, w: -0.9868541}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000004}
+    - name: HazMatRightToe1
+      parentName: HazMatRightFoot
+      position: {x: -0.08551728, y: -0.11005718, z: 0.000000062032285}
+      rotation: {x: -0.0000000074505797, y: -0.00000029616055, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.000001}
+    - name: HazMatRightToe2
+      parentName: HazMatRightToe1
+      position: {x: 0.08174264, y: 0.000000049485, z: 0.00000019218783}
+      rotation: {x: -0, y: -0, z: -2.2065676e-15, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: HazMatSpine1
+      parentName: HazMatSpine
+      position: {x: -0.14667831, y: 0.025727088, z: -0.0000003282363}
+      rotation: {x: -0, y: -0, z: 1.2496669e-12, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: HazMatSpine2
+      parentName: HazMatSpine1
+      position: {x: -0.12695539, y: 0.022281736, z: -0.0000002830808}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: HazMatNeck
+      parentName: HazMatSpine2
+      position: {x: -0.12697862, y: 0.02224573, z: -0.00000028315998}
+      rotation: {x: 0.00000000805403, y: -0.0000000428538, z: 0.13052617, w: -0.99144495}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: HazMatHead
+      parentName: HazMatNeck
+      position: {x: -0.042485785, y: -0.03259001, z: 0.00000011295438}
+      rotation: {x: 0.00000005385663, y: 0.000000050596768, z: -0.087551825, w: -0.99616}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Goggles
+      parentName: HazMatHead
+      position: {x: -0.121051684, y: -0.10096627, z: -0.00000037820368}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HazMatLeftShoulder
+      parentName: HazMatNeck
+      position: {x: 0.00002230769, y: -0.00006137982, z: -0.026027031}
+      rotation: {x: 0.48609015, y: 0.072220385, z: -0.86407304, w: 0.10898816}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: HazMatLeftArm
+      parentName: HazMatLeftShoulder
+      position: {x: 0.081806436, y: 0.00930067, z: -0.096346214}
+      rotation: {x: -0.042924177, y: -0.95025235, z: -0.07972296, w: 0.29803059}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000004}
+    - name: HazMatLeftForeArm
+      parentName: HazMatLeftArm
+      position: {x: -0.24563915, y: 0.0150609035, z: 0.0012471945}
+      rotation: {x: 0.15199886, y: 0.023775207, z: 0.2650671, w: 0.9518774}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: HazMatLeftHand
+      parentName: HazMatLeftForeArm
+      position: {x: -0.15100367, y: 0.11460551, z: -0.034123138}
+      rotation: {x: 0.68941575, y: 0.04511806, z: -0.039469685, w: 0.7218812}
+      scale: {x: 0.99999964, y: 1.0000006, z: 1.0000006}
+    - name: HazMatLeftHandMiddle4
+      parentName: HazMatLeftHand
+      position: {x: -0.053039346, y: -0.006055081, z: -0.048465014}
+      rotation: {x: 0.3819766, y: -0.22987537, z: -0.5130265, w: 0.7335224}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000007}
+    - name: HazMatRightShoulder
+      parentName: HazMatNeck
+      position: {x: 0.000022271464, y: -0.00006150465, z: 0.026027026}
+      rotation: {x: -0.48609063, y: -0.07221771, z: -0.8640728, w: 0.108989626}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: HazMatRightArm
+      parentName: HazMatRightShoulder
+      position: {x: 0.081806876, y: 0.009300272, z: 0.096346125}
+      rotation: {x: -0.06292409, y: 0.29547814, z: -0.011793059, w: 0.95320207}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999999}
+    - name: HazMatRightForeArm
+      parentName: HazMatRightArm
+      position: {x: 0.087945335, y: -0.014121898, z: 0.22941919}
+      rotation: {x: 0.20159881, y: 0.04581329, z: 0.20902115, w: 0.9558082}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HazMatRightHand
+      parentName: HazMatRightForeArm
+      position: {x: 0.067432575, y: 0.04563041, z: 0.17456126}
+      rotation: {x: 0.71474063, y: 0.07713507, z: -0.098213136, w: 0.68814987}
+      scale: {x: 0.9999997, y: 1.0000006, z: 1.0000005}
+    - name: HazMatRightHandMiddle4
+      parentName: HazMatRightHand
+      position: {x: -0.00035299355, y: 0.07522967, z: -0.033236902}
+      rotation: {x: 0.38197663, y: -0.22987548, z: -0.5130264, w: 0.7335224}
+      scale: {x: 1.0000012, y: 1.000001, z: 1.0000021}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: c06cc17d5c64d294f957413353209913
+timeCreated: 1509140442
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Crnr_Pipes
+    100004: FloorCorner
+    100006: FloorCorner1
+    100008: Goggles
+    100010: group
+    100012: group13
+    100014: group14
+    100016: group15
+    100018: HazMat
+    100020: Hazmat_Worker
+    100022: HazMatHead
+    100024: HazMatHips
+    100026: HazMatLeftArm
+    100028: HazMatLeftFoot
+    100030: HazMatLeftForeArm
+    100032: HazMatLeftHand
+    100034: HazMatLeftHandMiddle4
+    100036: HazMatLeftLeg
+    100038: HazMatLeftShoulder
+    100040: HazMatLeftToe1
+    100042: HazMatLeftToe2
+    100044: HazMatLeftUpLeg
+    100046: HazMatNeck
+    100048: HazMatRightArm
+    100050: HazMatRightFoot
+    100052: HazMatRightForeArm
+    100054: HazMatRightHand
+    100056: HazMatRightHandMiddle4
+    100058: HazMatRightLeg
+    100060: HazMatRightShoulder
+    100062: HazMatRightToe1
+    100064: HazMatRightToe2
+    100066: HazMatRightUpLeg
+    100068: HazMatSkeleton
+    100070: HazMatSpine
+    100072: HazMatSpine1
+    100074: HazMatSpine2
+    100076: Pipes1:Side_Pipes1
+    100078: polySurface4
+    100080: RailingCorner1
+    100082: RailingCorner2
+    100084: RailingSide
+    100086: RoofCorner
+    100088: RoofCorner1
+    100090: Wall1
+    100092: Wall2
+    100094: Wall:group
+    100096: Wall:Walls:Mesh
+    100098: WallCornerPillar
+    100100: WallLight
+    400000: //RootNode
+    400002: Crnr_Pipes
+    400004: FloorCorner
+    400006: FloorCorner1
+    400008: Goggles
+    400010: group
+    400012: group13
+    400014: group14
+    400016: group15
+    400018: HazMat
+    400020: Hazmat_Worker
+    400022: HazMatHead
+    400024: HazMatHips
+    400026: HazMatLeftArm
+    400028: HazMatLeftFoot
+    400030: HazMatLeftForeArm
+    400032: HazMatLeftHand
+    400034: HazMatLeftHandMiddle4
+    400036: HazMatLeftLeg
+    400038: HazMatLeftShoulder
+    400040: HazMatLeftToe1
+    400042: HazMatLeftToe2
+    400044: HazMatLeftUpLeg
+    400046: HazMatNeck
+    400048: HazMatRightArm
+    400050: HazMatRightFoot
+    400052: HazMatRightForeArm
+    400054: HazMatRightHand
+    400056: HazMatRightHandMiddle4
+    400058: HazMatRightLeg
+    400060: HazMatRightShoulder
+    400062: HazMatRightToe1
+    400064: HazMatRightToe2
+    400066: HazMatRightUpLeg
+    400068: HazMatSkeleton
+    400070: HazMatSpine
+    400072: HazMatSpine1
+    400074: HazMatSpine2
+    400076: Pipes1:Side_Pipes1
+    400078: polySurface4
+    400080: RailingCorner1
+    400082: RailingCorner2
+    400084: RailingSide
+    400086: RoofCorner
+    400088: RoofCorner1
+    400090: Wall1
+    400092: Wall2
+    400094: Wall:group
+    400096: Wall:Walls:Mesh
+    400098: WallCornerPillar
+    400100: WallLight
+    2300000: Crnr_Pipes
+    2300002: FloorCorner
+    2300004: FloorCorner1
+    2300006: Goggles
+    2300008: Pipes1:Side_Pipes1
+    2300010: polySurface4
+    2300012: RailingCorner1
+    2300014: RailingCorner2
+    2300016: RailingSide
+    2300018: RoofCorner
+    2300020: RoofCorner1
+    2300022: Wall1
+    2300024: Wall2
+    2300026: WallCornerPillar
+    2300028: WallLight
+    3300000: Crnr_Pipes
+    3300002: FloorCorner
+    3300004: FloorCorner1
+    3300006: Goggles
+    3300008: Pipes1:Side_Pipes1
+    3300010: polySurface4
+    3300012: RailingCorner1
+    3300014: RailingCorner2
+    3300016: RailingSide
+    3300018: RoofCorner
+    3300020: RoofCorner1
+    3300022: Wall1
+    3300024: Wall2
+    3300026: WallCornerPillar
+    3300028: WallLight
+    4300000: Hazmat_Worker
+    4300002: Goggles
+    4300004: Crnr_Pipes
+    4300006: Wall1
+    4300008: Wall2
+    4300010: RailingCorner1
+    4300012: RailingCorner2
+    4300014: WallCornerPillar
+    4300016: RoofCorner
+    4300018: FloorCorner
+    4300020: RoofCorner1
+    4300022: FloorCorner1
+    4300024: WallLight
+    4300026: RailingSide
+    4300028: polySurface4
+    4300030: Pipes1:Side_Pipes1
+    9500000: //RootNode
+    13700000: Hazmat_Worker
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorTiles
+    second: {fileID: 2100000, guid: f36b30312cb660c489b95c772e2adf01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorTiles1
+    second: {fileID: 2100000, guid: f36b30312cb660c489b95c772e2adf01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GateConcrete
+    second: {fileID: 2100000, guid: 8737a69b9117ad14d8fc1e4a1c688574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HazGoggs
+    second: {fileID: 2100000, guid: 11899716024c82947be7b4413f80bdb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_body
+    second: {fileID: 2100000, guid: 5e3b7c260b15e81448093ff325b1b76a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_feet
+    second: {fileID: 2100000, guid: 346a3596de0547244838fe2da0e0f354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_hand
+    second: {fileID: 2100000, guid: 90c71ed8871553645b58704436002fca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Clothes_hood
+    second: {fileID: 2100000, guid: 5e3b7c260b15e81448093ff325b1b76a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Mask
+    second: {fileID: 2100000, guid: 6620605126326684cab21e75c27477f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hazmat_Worker_Vent
+    second: {fileID: 2100000, guid: ccacaebbe0949ee40beda964636045fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightWallCase
+    second: {fileID: 2100000, guid: 8edf81eb56eda9344ad85cbfb6ae4aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PillarSteel
+    second: {fileID: 2100000, guid: a6835ee2717b26e42bc05b8da52068b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipes1_Crnr_Pipes
+    second: {fileID: 2100000, guid: e806c2379ccee3146a7b654f42a20920, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipes1_Side_Pipes
+    second: {fileID: 2100000, guid: c4c2b4c992149ad4289b9cd68db52f41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_tiles
+    second: {fileID: 2100000, guid: 90c90ee34146d054a91030ba58964c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_tiles1
+    second: {fileID: 2100000, guid: 90c90ee34146d054a91030ba58964c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallLightBulb
+    second: {fileID: 2100000, guid: 67341db5cab92ef41a7b638a6b5dd25e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Walls1
+    second: {fileID: 2100000, guid: 7222ed1b08ce8de4a8ca728171858be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Walls2
+    second: {fileID: 2100000, guid: 7222ed1b08ce8de4a8ca728171858be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_handrail_yellow_mat3
+    second: {fileID: 2100000, guid: f37558e0d4dc99a4780b3ecb013010f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_handrail_yellow_mat4
+    second: {fileID: 2100000, guid: f37558e0d4dc99a4780b3ecb013010f6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
