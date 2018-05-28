@@ -97,9 +97,13 @@ public abstract class GvrBasePointer : MonoBehaviour {
   [Tooltip("Optional: Use a camera other than Camera.main.")]
   public Camera overridePointerCamera;
 
+    public bool TimedGaze = false;
+    public float TimedGazeTime = 1.0f;
+    private static float GazeTime = 0.0f;
+
 #if UNITY_EDITOR
-  /// Determines if the rays used for raycasting will be drawn in the editor.
-  [Tooltip("Determines if the rays used for raycasting will be drawn in the editor.")]
+    /// Determines if the rays used for raycasting will be drawn in the editor.
+    [Tooltip("Determines if the rays used for raycasting will be drawn in the editor.")]
   public bool drawDebugRays = false;
 #endif  // UNITY_EDITOR
 
@@ -157,8 +161,8 @@ public abstract class GvrBasePointer : MonoBehaviour {
   /// Defaults to GvrControllerInput.ClickButtonDown, can be overridden to change the trigger.
   public virtual bool TriggerDown {
     get {
-      bool isTriggerDown = Input.GetMouseButtonDown(0);
-      return isTriggerDown || GvrControllerInput.ClickButtonDown;
+      bool isTriggerDown = Input.GetMouseButton(0);
+      return TimedGaze ? GazeTime > TimedGazeTime : isTriggerDown || GvrControllerInput.ClickButtonDown;
     }
   }
 
@@ -279,14 +283,26 @@ public abstract class GvrBasePointer : MonoBehaviour {
   ///
   /// **raycastResult** is the hit detection result for the object being pointed at.
   /// **isInteractive** is true if the object being pointed at is interactive.
-  public abstract void OnPointerEnter(RaycastResult raycastResult, bool isInteractive);
+  public virtual void OnPointerEnter(RaycastResult raycastResult, bool isInteractive)
+    {
+        GazeTime = 0.0f;
+    }
 
   /// Called every frame the user is still pointing at a valid GameObject. This
   /// can be a 3D or UI element.
   ///
   /// **raycastResult** is the hit detection result for the object being pointed at.
   /// **isInteractive** is true if the object being pointed at is interactive.
-  public abstract void OnPointerHover(RaycastResult raycastResultResult, bool isInteractive);
+  public virtual void OnPointerHover(RaycastResult raycastResultResult, bool isInteractive)
+    {
+        if (TimedGaze)
+        {
+            if (isInteractive)
+                GazeTime += Time.deltaTime;
+            else
+                GazeTime = 0.0f;
+        }
+    }
 
   /// Called when the pointer no longer faces an object previously
   /// intersected with a ray projected from the camera.
@@ -294,7 +310,10 @@ public abstract class GvrBasePointer : MonoBehaviour {
   /// previousObject will be null in this case.
   ///
   /// **previousObject** is the object that was being pointed at the previous frame.
-  public abstract void OnPointerExit(GameObject previousObject);
+  public virtual void OnPointerExit(GameObject previousObject)
+    {
+        GazeTime = 0.0f;
+    }
 
   /// Called when a click is initiated.
   public abstract void OnPointerClickDown();

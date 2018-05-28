@@ -68,18 +68,23 @@ public class GvrReticlePointer : GvrBasePointer {
   public override float MaxPointerDistance { get { return maxReticleDistance; } }
 
   public override void OnPointerEnter(RaycastResult raycastResultResult, bool isInteractive) {
+        base.OnPointerEnter(raycastResultResult, isInteractive);
     SetPointerTarget(raycastResultResult.worldPosition, isInteractive);
-  }
+    }
 
-  public override void OnPointerHover(RaycastResult raycastResultResult, bool isInteractive) {
-    SetPointerTarget(raycastResultResult.worldPosition, isInteractive);
-  }
+  public override void OnPointerHover(RaycastResult raycastResultResult, bool isInteractive)
+    {
+        base.OnPointerHover(raycastResultResult, isInteractive);
+        SetPointerTarget(raycastResultResult.worldPosition, isInteractive);
+    }
 
-  public override void OnPointerExit(GameObject previousObject) {
-    ReticleDistanceInMeters = maxReticleDistance;
+  public override void OnPointerExit(GameObject previousObject)
+    {
+        base.OnPointerExit(previousObject);
+        ReticleDistanceInMeters = maxReticleDistance;
     ReticleInnerAngle = RETICLE_MIN_INNER_ANGLE;
     ReticleOuterAngle = RETICLE_MIN_OUTER_ANGLE;
-  }
+    }
 
   public override void OnPointerClickDown() {}
 
@@ -116,7 +121,7 @@ public class GvrReticlePointer : GvrBasePointer {
     ReticleOuterDiameter =
       Mathf.Lerp(ReticleOuterDiameter, outer_diameter, Time.deltaTime * reticleGrowthSpeed);
 
-    MaterialComp.SetFloat("_InnerDiameter", ReticleInnerDiameter * ReticleDistanceInMeters);
+        MaterialComp.SetFloat("_InnerDiameter", ReticleInnerDiameter * ReticleDistanceInMeters);
     MaterialComp.SetFloat("_OuterDiameter", ReticleOuterDiameter * ReticleDistanceInMeters);
     MaterialComp.SetFloat("_DistanceInMeters", ReticleDistanceInMeters);
   }
